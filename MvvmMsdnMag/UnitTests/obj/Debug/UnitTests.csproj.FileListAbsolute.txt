@@ -1,0 +1,4 @@
+C:\Users\Kamil\Downloads\MvvmDemoApp (1)\MvvmDemoApp\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Kamil\Downloads\MvvmDemoApp (1)\MvvmDemoApp\UnitTests\obj\Debug\UnitTests.g.resources
+C:\Users\Kamil\Documents\Visual Studio 2013\Projects\MvvmMsdnMag\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Kamil\Documents\Visual Studio 2013\Projects\MvvmMsdnMag\UnitTests\obj\Debug\UnitTests.g.resources
