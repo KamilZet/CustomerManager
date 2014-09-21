@@ -120,7 +120,7 @@ namespace DemoApp.ViewModel
 
         void ShowSummary()
         {
-
+            MessageBox.Show("not implemented");
         }
 
         void CreateNewCustomer()

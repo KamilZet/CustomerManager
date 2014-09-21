@@ -10,6 +10,7 @@
 //------------------------------------------------------------------------------
 
 using DemoApp.View;
+using DemoApp.ViewModel;
 using System;
 using System.Diagnostics;
 using System.Windows;

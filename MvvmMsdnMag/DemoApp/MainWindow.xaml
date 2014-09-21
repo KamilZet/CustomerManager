@@ -21,7 +21,9 @@
           <MenuItem Header="E_xit" Command="{Binding Path=CloseCommand}" />
         </MenuItem>
         <MenuItem Header="_Edit" />
-        <MenuItem Header="_Options" />
+        <MenuItem Header="_Options">
+            <MenuItem Header="_Export workspace data" Command="{Binding Path=ExportCommand}"/>
+        </MenuItem>
         <MenuItem Header="_Help" />
       </Menu>
     </DockPanel>
