@@ -2,8 +2,7 @@
   x:Class="DemoApp.View.AllCustomersView"
   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-  xmlns:scm="clr-namespace:System.ComponentModel;assembly=WindowsBase"
-  >
+  xmlns:scm="clr-namespace:System.ComponentModel;assembly=WindowsBase">
   <UserControl.Resources>
     <CollectionViewSource
       x:Key="CustomerGroups" 
@@ -56,15 +55,16 @@
       <Setter Property="IsSelected" Value="{Binding Path=IsSelected, Mode=TwoWay}" />
       <Style.Triggers>
         <MultiTrigger>
-          <MultiTrigger.Conditions>
-            <Condition Property="ItemsControl.AlternationIndex" Value="1" />
-            <Condition Property="IsSelected" Value="False" />
-            <Condition Property="IsMouseOver" Value="False" />
-          </MultiTrigger.Conditions>
-          <Setter Property="Background" Value="#EEEEEEEE" />
+                    <MultiTrigger.Conditions>
+                        <Condition Property="ItemsControl.AlternationIndex" Value="1" />
+                        <Condition Property="IsSelected" Value="False" />
+                        <Condition Property="IsMouseOver" Value="False" />
+                    </MultiTrigger.Conditions>
+                    <Setter Property="Background" Value="#EEEEEEEE" />
         </MultiTrigger>
       </Style.Triggers>
     </Style>
+      
   </UserControl.Resources>
 
   <DockPanel>

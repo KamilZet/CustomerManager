@@ -120,7 +120,11 @@ namespace DemoApp.ViewModel
 
         void ShowSummary()
         {
-            MessageBox.Show("not implemented");
+            Customer newCustomer = Customer.CreateNewCustomer();
+            CustomerViewModel workspace = new CustomerViewModel(newCustomer, _customerRepository);
+            this.Workspaces.Add(workspace);
+            this.SetActiveWorkspace(workspace);
+        }
         }
 
         void CreateNewCustomer()
